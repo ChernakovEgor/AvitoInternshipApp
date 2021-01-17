@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7478493925B4654900B756DA /* PromotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478493825B4654900B756DA /* PromotionModel.swift */; };
+		7478493E25B4682900B756DA /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = 7478493D25B4682900B756DA /* result.json */; };
+		7478494225B4688E00B756DA /* PromotionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478494125B4688E00B756DA /* PromotionInteractor.swift */; };
+		7478494B25B4702100B756DA /* PromotionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478494A25B4702100B756DA /* PromotionPresenter.swift */; };
+		7478495025B477FF00B756DA /* PromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478494F25B477FF00B756DA /* PromotionViewController.swift */; };
+		7478495425B47A0F00B756DA /* PromotionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478495325B47A0F00B756DA /* PromotionRouter.swift */; };
 		74E16AC125B3501800D45BDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E16AC025B3501800D45BDC /* AppDelegate.swift */; };
 		74E16AC325B3501800D45BDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E16AC225B3501800D45BDC /* SceneDelegate.swift */; };
-		74E16AC525B3501800D45BDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E16AC425B3501800D45BDC /* ViewController.swift */; };
 		74E16AC825B3501800D45BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E16AC625B3501800D45BDC /* Main.storyboard */; };
 		74E16ACA25B3501B00D45BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E16AC925B3501B00D45BDC /* Assets.xcassets */; };
 		74E16ACD25B3501B00D45BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E16ACB25B3501B00D45BDC /* LaunchScreen.storyboard */; };
-		74E16AD625B353D400D45BDC /* HighlightOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E16AD525B353D400D45BDC /* HighlightOptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7478493825B4654900B756DA /* PromotionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionModel.swift; sourceTree = "<group>"; };
+		7478493D25B4682900B756DA /* result.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = result.json; sourceTree = "<group>"; };
+		7478494125B4688E00B756DA /* PromotionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionInteractor.swift; sourceTree = "<group>"; };
+		7478494A25B4702100B756DA /* PromotionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionPresenter.swift; sourceTree = "<group>"; };
+		7478494F25B477FF00B756DA /* PromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewController.swift; sourceTree = "<group>"; };
+		7478495325B47A0F00B756DA /* PromotionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionRouter.swift; sourceTree = "<group>"; };
 		74E16ABD25B3501800D45BDC /* AvitoInternshipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvitoInternshipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E16AC025B3501800D45BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E16AC225B3501800D45BDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74E16AC425B3501800D45BDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74E16AC725B3501800D45BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E16AC925B3501B00D45BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E16ACC25B3501B00D45BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E16ACE25B3501B00D45BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74E16AD525B353D400D45BDC /* HighlightOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightOptionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7478493625B462F400B756DA /* PromotionOptionsModule */ = {
+			isa = PBXGroup;
+			children = (
+				7478495225B479E500B756DA /* Router */,
+				7478494D25B477DA00B756DA /* View */,
+				7478494925B4700A00B756DA /* Presenter */,
+				7478493C25B4670E00B756DA /* Interactor */,
+				7478493725B4630F00B756DA /* Entity */,
+			);
+			path = PromotionOptionsModule;
+			sourceTree = "<group>";
+		};
+		7478493725B4630F00B756DA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7478493825B4654900B756DA /* PromotionModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7478493C25B4670E00B756DA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7478494125B4688E00B756DA /* PromotionInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7478494925B4700A00B756DA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7478494A25B4702100B756DA /* PromotionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7478494D25B477DA00B756DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7478494F25B477FF00B756DA /* PromotionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7478495225B479E500B756DA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7478495325B47A0F00B756DA /* PromotionRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		74E16AB425B3501800D45BDC = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +118,14 @@
 		74E16ABF25B3501800D45BDC /* AvitoInternshipApp */ = {
 			isa = PBXGroup;
 			children = (
+				7478493625B462F400B756DA /* PromotionOptionsModule */,
 				74E16AC025B3501800D45BDC /* AppDelegate.swift */,
 				74E16AC225B3501800D45BDC /* SceneDelegate.swift */,
-				74E16AC425B3501800D45BDC /* ViewController.swift */,
 				74E16AC625B3501800D45BDC /* Main.storyboard */,
 				74E16AC925B3501B00D45BDC /* Assets.xcassets */,
+				7478493D25B4682900B756DA /* result.json */,
 				74E16ACB25B3501B00D45BDC /* LaunchScreen.storyboard */,
 				74E16ACE25B3501B00D45BDC /* Info.plist */,
-				74E16AD525B353D400D45BDC /* HighlightOptionsViewController.swift */,
 			);
 			path = AvitoInternshipApp;
 			sourceTree = "<group>";
@@ -129,6 +189,7 @@
 			files = (
 				74E16ACD25B3501B00D45BDC /* LaunchScreen.storyboard in Resources */,
 				74E16ACA25B3501B00D45BDC /* Assets.xcassets in Resources */,
+				7478493E25B4682900B756DA /* result.json in Resources */,
 				74E16AC825B3501800D45BDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E16AC525B3501800D45BDC /* ViewController.swift in Sources */,
+				7478495425B47A0F00B756DA /* PromotionRouter.swift in Sources */,
+				7478494B25B4702100B756DA /* PromotionPresenter.swift in Sources */,
 				74E16AC125B3501800D45BDC /* AppDelegate.swift in Sources */,
-				74E16AD625B353D400D45BDC /* HighlightOptionsViewController.swift in Sources */,
+				7478493925B4654900B756DA /* PromotionModel.swift in Sources */,
+				7478494225B4688E00B756DA /* PromotionInteractor.swift in Sources */,
 				74E16AC325B3501800D45BDC /* SceneDelegate.swift in Sources */,
+				7478495025B477FF00B756DA /* PromotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
