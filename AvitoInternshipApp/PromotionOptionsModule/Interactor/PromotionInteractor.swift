@@ -43,7 +43,6 @@ class PromotionInteractor {
             task.resume()
             semaphore.wait()
         }
-        
         return options
     }
 }
