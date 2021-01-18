@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743C0BA025B531040030CDDB /* PromotionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C0B9E25B531040030CDDB /* PromotionCollectionViewCell.swift */; };
 		7478493925B4654900B756DA /* PromotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478493825B4654900B756DA /* PromotionModel.swift */; };
 		7478493E25B4682900B756DA /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = 7478493D25B4682900B756DA /* result.json */; };
 		7478494225B4688E00B756DA /* PromotionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478494125B4688E00B756DA /* PromotionInteractor.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		743C0B9E25B531040030CDDB /* PromotionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCollectionViewCell.swift; sourceTree = "<group>"; };
 		7478493825B4654900B756DA /* PromotionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionModel.swift; sourceTree = "<group>"; };
 		7478493D25B4682900B756DA /* result.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = result.json; sourceTree = "<group>"; };
 		7478494125B4688E00B756DA /* PromotionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionInteractor.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				7478494F25B477FF00B756DA /* PromotionViewController.swift */,
+				743C0B9E25B531040030CDDB /* PromotionCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				7478493925B4654900B756DA /* PromotionModel.swift in Sources */,
 				7478494225B4688E00B756DA /* PromotionInteractor.swift in Sources */,
 				74E16AC325B3501800D45BDC /* SceneDelegate.swift in Sources */,
+				743C0BA025B531040030CDDB /* PromotionCollectionViewCell.swift in Sources */,
 				7478495025B477FF00B756DA /* PromotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
